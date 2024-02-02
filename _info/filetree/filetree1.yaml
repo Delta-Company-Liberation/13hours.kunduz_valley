@@ -1,0 +1,45 @@
+13Hours.kunduz_river/
+├── mission.sqm
+├── init.sqf
+├── description.ext
+├── onPlayerConnected.sqf
+├── onPlayerRespawn.sqf
+├── onPlayerKilled.sqf
+├── cfgFunctions/
+│   ├── fn_initFunctions.sqf
+│   ├── client/
+│   │   ├── fn_clientInit.sqf
+│   │   ├── fn_playerSetup.sqf
+│   │   
+│   └── server/
+│       ├── fn_serverInit.sqf
+│       ├── fn_missionSetup.sqf
+│       
+├── cfgVehicles/
+│   └── fn_customVehicles.sqf
+├── scripts/
+│   ├── ai/
+│   │   ├── fn_aiPatrol.sqf
+│   │   └── fn_aiDefend.sqf
+│   ├── missions/
+│   │   ├── fn_missionOne.sqf
+│   │   ├── fn_missionTwo.sqf
+│   │   
+│   └── utilities/
+│       ├── fn_cleanup.sqf
+│       ├── fn_randomPatrolRoute.sqf
+|----- aresnalpresets/
+|   ├── loadouts/
+
+├── sounds/
+│   ├── sound1.ogg
+│   └── sound2.ogg
+├── music/
+│   ├── track1.ogg
+│   └── track2.ogg
+├── images/
+│   ├── briefingImg.paa
+│   └── logo.paa
+└── maps/
+    ├── mapOverview.html
+    └── tacticalMap.jpg

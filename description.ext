@@ -1,0 +1,35 @@
+// description.ext
+class Header
+{
+    gameType = "Coop"; 
+    minPlayers = 1;    
+    maxPlayers = 60;  
+};
+
+onLoadName = "Operation Historical Echo";
+onLoadMission = "In the shoes of those who fought, we learn the lessons of history.";
+loadScreen = "images\first.jpg";
+
+// Mission parameters for dynamic customization
+class Params
+{
+    class Daytime
+    {
+        title = "Time of Day";
+        values[] = {0, 6, 12, 18};
+        texts[] = {"Midnight", "Dawn", "Noon", "Dusk"};
+        default = 12;
+    };
+    class Weather
+    {
+        title = "Weather Setting";
+        values[] = {0, 25, 50, 75, 100};
+        texts[] = {"Clear", "Overcast", "Cloudy", "Rainy", "Stormy"};
+        default = 25;
+    };
+};
+
+
+
+
+
