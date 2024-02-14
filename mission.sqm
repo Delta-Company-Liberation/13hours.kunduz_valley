@@ -6,9 +6,13 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=513;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
 	class ItemIDProvider
 	{
-		nextID=1636;
+		nextID=1638;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=15;
+		nextID=18;
 	};
 	class Camera
 	{
-		pos[]={9461.8799,64.743401,9064.4238};
-		dir[]={-0.86433923,-0.50129974,-0.041723706};
-		up[]={-0.50079727,0.86522263,-0.024174456};
-		aside[]={-0.048217278,-1.7520506e-007,0.99889576};
+		pos[]={9438.0254,58.94651,9069.4531};
+		dir[]={0.022851931,-0.60755301,0.79408979};
+		up[]={0.017480267,0.79421771,0.60738397};
+		aside[]={0.9996922,1.5642299e-006,-0.028770614};
 	};
 };
 binarizationWanted=0;
@@ -12322,14 +12326,14 @@ class Mission
 			name="Arsenal from wade";
 			class Entities
 			{
-				items=1;
+				items=3;
 				class Item0
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9433.4277,43.160938,9067.8096};
-						angles[]={0,5.2249398,0};
+						position[]={9431.5381,43.161938,9059.7783};
+						angles[]={-0,5.2249398,0};
 					};
 					side="Empty";
 					flags=4;
@@ -12339,7 +12343,74 @@ class Mission
 					};
 					id=1134;
 					type="I_EAF_supplyCrate_F";
-					atlOffset=-0.00099945068;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ammoBox";
+							expression="[_this,_value] call bis_fnc_initAmmoBox;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9469.1895,43.238224,9059.2988};
+						angles[]={6.2813587,5.2249398,0.0016558425};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="bcars_1";
+					};
+					id=1636;
+					type="I_EAF_supplyCrate_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ammoBox";
+							expression="[_this,_value] call bis_fnc_initAmmoBox;";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9402.7852,43.162422,9095.8652};
+						angles[]={-0,1.8725061,0};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="bcars_2";
+					};
+					id=1637;
+					type="I_EAF_supplyCrate_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12360,7 +12431,7 @@ class Mission
 				};
 			};
 			id=1135;
-			atlOffset=-0.00099945068;
+			atlOffset=0.018947601;
 		};
 		class Item481
 		{
@@ -18940,7 +19011,6 @@ class Mission
 					{
 						rank="SERGEANT";
 						description="God Father (Zeus)@Command";
-						isPlayer=1;
 						isPlayable=1;
 						class Inventory
 						{
