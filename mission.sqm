@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=521;
+	toggles=1545;
 	mods[]=
 	{
 		"3denEnhanced"
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=54;
+		nextID=57;
 	};
 	class Camera
 	{
-		pos[]={9418.8691,62.767067,9076.6807};
-		dir[]={0.64859682,-0.6237275,0.43634078};
-		up[]={0.51754701,0.78161174,0.34817696};
-		aside[]={0.55821311,-3.1664968e-008,-0.82975608};
+		pos[]={9221.623,35.994759,6143.939};
+		dir[]={0.75696176,-0.51390231,0.40364686};
+		up[]={0.45346326,0.85784847,0.24180688};
+		aside[]={0.47053245,-6.0186721e-008,-0.88239259};
 	};
 };
 binarizationWanted=0;
@@ -22039,7 +22039,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="C:\Users\Adam\Documents\Arma 3 - Other Profiles\DoughBoi\MPMissions\13hours.kunduz_valley\porn4.jpg";
+							value="porn4.jpg";
 						};
 					};
 				};
@@ -22052,7 +22052,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="C:\Users\Adam\Documents\Arma 3 - Other Profiles\DoughBoi\MPMissions\13hours.kunduz_valley\porn5.jpg";
+							value="porn5.jpg";
 						};
 					};
 				};
@@ -22065,7 +22065,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="C:\Users\Adam\Documents\Arma 3 - Other Profiles\DoughBoi\MPMissions\13hours.kunduz_valley\porn6.jpg";
+							value="porn6.jpg";
 						};
 					};
 				};
@@ -22183,7 +22183,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="C:\Users\Adam\Documents\Arma 3 - Other Profiles\DoughBoi\MPMissions\13hours.kunduz_valley\porn1.jpg";
+							value="porn1.jpg";
 						};
 					};
 				};
@@ -22196,7 +22196,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="C:\Users\Adam\Documents\Arma 3 - Other Profiles\DoughBoi\MPMissions\13hours.kunduz_valley\porn2.jpg";
+							value="porn2.jpg";
 						};
 					};
 				};
@@ -22209,7 +22209,7 @@ class Mission
 						class data
 						{
 							singleType="STRING";
-							value="C:\Users\Adam\Documents\Arma 3 - Other Profiles\DoughBoi\MPMissions\13hours.kunduz_valley\porn3.jpg";
+							value="porn3.jpg";
 						};
 					};
 				};
@@ -27462,6 +27462,7 @@ class Mission
 					};
 					id=2193;
 					type="rhsgref_nat_rifleman";
+					atlOffset=-0.0023574829;
 				};
 				class Item1
 				{
@@ -27472,13 +27473,13 @@ class Mission
 						angles[]={0.093723878,4.3472662,0.033987202};
 					};
 					side="Independent";
-					flags=2;
+					flags=6;
 					class Attributes
 					{
 					};
 					id=2194;
 					type="rhsgref_nat_rifleman";
-					atlOffset=1.1807404;
+					atlOffset=-0.0023574829;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27525,6 +27526,7 @@ class Mission
 					};
 					id=2196;
 					type="rhsgref_nat_rifleman";
+					atlOffset=-0.00011062622;
 				};
 				class Item3
 				{
@@ -27535,12 +27537,13 @@ class Mission
 						angles[]={0.05394781,4.4072905,0.02599225};
 					};
 					side="Independent";
+					flags=4;
 					class Attributes
 					{
 					};
 					id=2197;
 					type="rhsgref_nat_rifleman";
-					atlOffset=1.1949654;
+					atlOffset=-0.00011062622;
 				};
 				class Item4
 				{
@@ -27557,6 +27560,7 @@ class Mission
 					};
 					id=2199;
 					type="rhsgref_nat_rifleman";
+					atlOffset=-0.00025177002;
 				};
 				class Item5
 				{
@@ -27567,12 +27571,13 @@ class Mission
 						angles[]={0.10362703,4.3396502,0.018000545};
 					};
 					side="Independent";
+					flags=4;
 					class Attributes
 					{
 					};
 					id=2200;
 					type="rhsgref_nat_rifleman";
-					atlOffset=1.2056541;
+					atlOffset=-0.00025177002;
 				};
 				class Item6
 				{
@@ -27589,6 +27594,7 @@ class Mission
 					};
 					id=2209;
 					type="rhsgref_nat_rifleman";
+					atlOffset=-0.0020027161;
 				};
 				class Item7
 				{
@@ -27607,7 +27613,7 @@ class Mission
 					};
 					id=2206;
 					type="rhsgref_nat_grenadier";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27643,7 +27649,7 @@ class Mission
 					};
 					id=2205;
 					type="rhsgref_nat_commander";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27705,7 +27711,7 @@ class Mission
 					};
 					id=2207;
 					type="rhsgref_nat_rifleman_m92";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27741,7 +27747,7 @@ class Mission
 					};
 					id=2210;
 					type="rhsgref_nat_machinegunner";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27777,7 +27783,7 @@ class Mission
 					};
 					id=2211;
 					type="rhsgref_nat_grenadier_rpg";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27813,7 +27819,7 @@ class Mission
 					};
 					id=2212;
 					type="rhsgref_nat_grenadier_rpg";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27849,7 +27855,7 @@ class Mission
 					};
 					id=2213;
 					type="rhsgref_nat_rifleman_akms";
-					atlOffset=-3.8146973e-006;
+					atlOffset=-0.0020027161;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -27877,12 +27883,12 @@ class Mission
 						angles[]={0.065904573,4.3912849,0.031990308};
 					};
 					side="Independent";
+					flags=4;
 					class Attributes
 					{
 					};
 					id=2257;
 					type="rhsgref_nat_rifleman";
-					atlOffset=0.32534409;
 				};
 			};
 			class Attributes
